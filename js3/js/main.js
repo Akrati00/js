@@ -2,11 +2,12 @@
 const myVariable = "Mathematics"; //not using keyword let beacuse we don't want to reassign the value of variable
 
 // The length property
-console.log(myVariable.length); // length property return the number of characters in a string
-console.log("Every good boy does fine".length);
+console.log(myVariable.length); // 11                  
+console.log("Every good boy does fine".length); // 24
+// length property return the number of characters in a string
 
 // String Methods
-console.log(myVariable.charAt(0));
+console.log(myVariable.charAt(0)); // M
 
 console.log(myVariable.indexOf("Math")); // 0
 console.log(myVariable.indexOf("mat")); // 5
@@ -27,6 +28,14 @@ console.log(myVariable.toLowerCase()); // mathematics
 console.log(myVariable.includes("div")); // false
 console.log(myVariable.includes("mat")); // true
 // returns the boolean data , true if the character or group of character is present in a string , false if not present 
+
+console.log(myVariable.split("e")); // ["Math" , "matics"]
+console.log(myVariable.split("")); // ['M' , 'a' , 't' , 'h' , 'e' , 'm' , 'a' , 't' , 'i' , 'c' , 's']
+console.log("John,Joe,Dave".split(",")); // ["John" , "Joe" , "Dave"]
+console.log("Every good boy does fine".split(" ")); // ["Every" , "good" , "boy" , "does" , "fine"]
+// it splits string into parts from where will the character we provide occurs and returns in an array
+
+
 
 
 
