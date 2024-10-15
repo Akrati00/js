@@ -10,8 +10,18 @@ console.log(myVariable.charAt(0));
 
 console.log(myVariable.indexOf("Math")); // 0
 console.log(myVariable.indexOf("mat")); // 5
+// lastIndexOf() returns the index of the first occurrence of a specified value in a string.
 
 console.log(myVariable.lastIndexOf("at")); // 6 
 console.log(myVariable.lastIndexOf("ath")); // 1
+// lastIndexOf() returns the index of the last occurrence of a specified value in a string.
+
+console.log(myVariable.slice(5,8)); // mat
+// it return the characters from starting position to the ending position but don't include ending position and if ending position is not provided then it return upto the end.
+
+console.log(myVariable.toUpperCase()); // MATHEMATICS
+// return the string in all upper case
+console.log(myVariable.toLowerCase()); // mathematics
+// return the string in all lower case
 
 
