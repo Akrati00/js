@@ -24,4 +24,10 @@ console.log(myVariable.toUpperCase()); // MATHEMATICS
 console.log(myVariable.toLowerCase()); // mathematics
 // return the string in all lower case
 
+console.log(myVariable.includes("div")); // false
+console.log(myVariable.includes("mat")); // true
+// returns the boolean data , true if the character or group of character is present in a string , false if not present 
+
+
+
 
