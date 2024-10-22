@@ -15,3 +15,9 @@ console.log(Math.pow(2,4)); // 16
 console.log(Math.min(1,0.5,9)); // 0.5
 console.log(Math.max(3,5,6)); // 6
 
+// random - generate random number between 0 to 1 which includes 0 but not 1
+console.log(Math.random());
+
+// 1 to 10
+console.log(Math.floor(Math.random()*10) + 1); 
+
