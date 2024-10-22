@@ -37,11 +37,21 @@ console.log(Number.parseFloat(myString)); // 42
 console.log(Number.parseFloat(myFloat)); // 42
 console.log(Number.parseFloat(myNumber)); // 42
 const newString = "42.132abc"
-console.log(Number.parseFloat(newString)); // 42.13
+console.log(Number.parseFloat(newString)); // 42.132
 
 // The toFixed() method formats a number according to how many decimal points you provide as a parameter.
 
 console.log(Number.parseFloat(newString).toFixed(2)); // 42.13
+
+// The Number.parseInt() method parses a string argument and returns an integer.
+console.log(Number.parseInt(myFloat)); // 42
+
+// The toString() method returns a string representing the number.
+
+console.log(myFloat.toString()); // 42.01
+console.log(typeof(myFloat.toString())); // string 
+
+
 
 
 
