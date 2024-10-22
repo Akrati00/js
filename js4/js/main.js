@@ -51,6 +51,24 @@ console.log(Number.parseInt(myFloat)); // 42
 console.log(myFloat.toString()); // 42.01
 console.log(typeof(myFloat.toString())); // string 
 
+// Chaining = using several methods chained together
+
+console.log(Number.parseFloat("4.237abc").toFixed(2).toString());
+
+// NaN is an acronym for Not a Number
+console.log(Number("Dave")); // NaN
+
+// The Number.isNaN() method determines whether the passed value is NaN AND its type is Number.
+console.log(Number.isNaN("Dave")); // false
+console.log(Number.isNaN(Number("Dave"))); // true
+
+// The global isNaN() function determines whether a value is NaN or not.
+console.log(isNaN("Dave")); // true
+
+
+
+
+
 
 
 
