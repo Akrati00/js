@@ -30,3 +30,18 @@ console.log(Number(false)); // 0
 console.log(Number.isInteger(myNumber)); // true
 console.log(Number.isInteger(myFloat)); // false
 console.log(Number.isInteger(myString)); // false
+
+// The Number.parseFloat() method parses an argument and returns a floating point number. If a number cannot be parsed from the argument, it returns NaN.
+
+console.log(Number.parseFloat(myString)); // 42
+console.log(Number.parseFloat(myFloat)); // 42
+console.log(Number.parseFloat(myNumber)); // 42
+const newString = "42.132abc"
+console.log(Number.parseFloat(newString)); // 42.13
+
+// The toFixed() method formats a number according to how many decimal points you provide as a parameter.
+
+console.log(Number.parseFloat(newString).toFixed(2)); // 42.13
+
+
+
