@@ -11,7 +11,7 @@ console.log(myVariable.charAt(0)); // M
 
 console.log(myVariable.indexOf("Math")); // 0
 console.log(myVariable.indexOf("mat")); // 5
-// lastIndexOf() returns the index of the first occurrence of a specified value in a string.
+// IndexOf() returns the index of the first occurrence of a specified value in a string.
 
 console.log(myVariable.lastIndexOf("at")); // 6 
 console.log(myVariable.lastIndexOf("ath")); // 1
